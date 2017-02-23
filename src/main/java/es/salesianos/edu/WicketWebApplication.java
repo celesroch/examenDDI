@@ -17,7 +17,7 @@ import org.springframework.stereotype.Component;
 import org.wicketstuff.annotation.scan.AnnotatedMountScanner;
 
 import de.agilecoders.wicket.core.Bootstrap;
-import es.salesianos.webpages.HomePage;
+import es.salesianos.edu.webpages.HomePage;
 
 
 /**

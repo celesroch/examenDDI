@@ -1,27 +1,12 @@
-package es.salesianos.models;
+package es.salesianos.edu.model;
 
 import java.io.Serializable;
 
 public class Estudiante implements Serializable{
-	private String name;
-	private Comida comida;
+	private Bocadillo Bocadillo;
 	private int totalPrecio;
 
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public Comida getComida() {
-		return comida;
-	}
-
-	public void setComida(Comida comida) {
-		this.comida = comida;
-	}
+	
 
 	public int getTotalPrecio() {
 		return totalPrecio;
@@ -29,5 +14,13 @@ public class Estudiante implements Serializable{
 
 	public void setTotalPrecio(int totalPrecio) {
 		this.totalPrecio = totalPrecio;
+	}
+
+	public Bocadillo getBocadillo() {
+		return Bocadillo;
+	}
+
+	public void setBocadillo(Bocadillo bocadillo) {
+		Bocadillo = bocadillo;
 	}
 }
