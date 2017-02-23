@@ -13,11 +13,14 @@ public class HomePage extends WebPage{
 		BookmarkablePageLink link2 = 
 				new BookmarkablePageLink("linkDesayunoList", 
 				ListDesayunoPage.class);
+		BookmarkablePageLink link3 = 
+				new BookmarkablePageLink("linkBotones", 
+				Botones.class);
 		
 		
 		add(link1);
 		add(link2);
-
+		add(link3);
 		
 	}
 
